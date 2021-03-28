@@ -1,7 +1,7 @@
 {
     "type": "symfony-bundle",
     "name": "lazybobcat/notification-bundle",
-    "version": "0.0.1",
+    "version": "0.1",
     "license": "WTFPL",
     "description": "Simple notification system for Symfony",
     "authors": [
