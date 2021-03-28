@@ -1,0 +1,27 @@
+{
+    "type": "symfony-bundle",
+    "name": "lazybobcat/notification-bundle",
+    "version": "0.0.1",
+    "license": "WTFPL",
+    "description": "Simple notification system for Symfony",
+    "authors": [
+        {
+            "name": "Loïc Boutter",
+            "email": "contact@loicboutter.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lazybobcat\\NotificationBundle\\": "src"
+        }
+    },
+    "require": {
+        "php": "^7.4",
+        "symfony/dependency-injection": "^4.0",
+        "symfony/framework-bundle":     "^4.0",
+        "symfony/config":               "^4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
