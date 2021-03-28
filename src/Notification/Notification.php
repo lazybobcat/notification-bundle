@@ -20,7 +20,7 @@ class Notification
     private array $handlers = [];
     private string $subject;
     private string $message;
-    private ?SenderInterface $sender;
+    private ?SenderInterface $sender = null;
     private bool $grouped = false;
 
     public function __construct(array $handlers = [])
